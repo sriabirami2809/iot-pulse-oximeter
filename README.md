@@ -46,5 +46,6 @@ To create a system that uses a pulse oximeter sensor with IoT capability to:
 - `Pulse_Oximeter_Project.pptx` – Presentation explaining the complete project
 - `pulse_oximeter_block_diagram.png` – Architecture diagram for system flow
 
-📄 Download Project PPT: [Pulse_Oximeter_Project.pptx](./Pulse_Oximeter_Project.pptx)
+📄 Download Project PPT:📄 Download Project PPT: 📄 Download Project PPT: [IoT-Based Pulse Oximeter.pptx](./IoT-Based%20Pulse%20Oximeter.pptx)
+
 
