@@ -24,9 +24,36 @@ To create a system that uses a pulse oximeter sensor with IoT capability to:
 
 ## 🧱 Block Diagram
 
-![Block Diagram](./pulse_oximeter_block_diagram.png)
+                +-----------------------+
+                |    Pulse Oximeter     |
+                |     Sensor (MAX30100)|
+                +----------+------------+
+                           |
+                           v
+                +----------+------------+
+                |     Microcontroller    |
+                |   (Arduino/NodeMCU)    |
+                +----------+------------+
+                           |
+          +----------------+----------------+
+          |                                 |
+          v                                 v
++-------------------+           +------------------------+
+|   LCD / OLED      |           |   Wi-Fi Module (ESP8266)|
+|   Display (Optional)          +-----------+------------+
++-------------------+                      |
+                                           v
+                             +-------------+-------------+
+                             |     IoT Cloud Platform     |
+                             | (ThingSpeak / Blynk / AWS) |
+                             +-------------+-------------+
+                                           |
+                                           v
+                             +-------------+-------------+
+                             |  Mobile / Web Dashboard   |
+                             |   (View health data)       |
+                             +---------------------------+
 
----
 
 ## ✅ Advantages
 
